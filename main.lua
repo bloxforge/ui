@@ -13,7 +13,7 @@ function Library.new(tb)
 		DialogFrame = {}
 	}
 
-	Window["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+	Window["1"] = Instance.new("ScreenGui", game.CoreGui);
 	Window["1"]["Name"] = [[UI]];
 	Window["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
